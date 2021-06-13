@@ -1,0 +1,19 @@
+.container{
+    max-width: 960px;    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-md-6{
+    width: calc(100% - 30px)/2;
+    margin: 0 15px;
+}
+.col-md-4{
+    width: calc(100% - 30px)/4;
+    margin: 0 10px;
+}
+.col-md-3{
+    width: calc(100% - 30px)/3;
+    margin: 0 7.5px;
+}
